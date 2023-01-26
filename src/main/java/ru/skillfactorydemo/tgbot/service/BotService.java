@@ -34,10 +34,10 @@ public class BotService extends TelegramLongPollingBot {
     private final FinanceService financeService;
     private final ActiveChatRepository activeChatRepository;
 
-    @Value("$5788471780:AAHWapeS2A6CfCprG71nl9OS5xQbEJ6WNhs")
+    @Value("${bot.api.key}")
     private String apiKey;
 
-    @Value("$java25_bot")
+    @Value("${bot.name}")
     private String name;
 
     private Map<Long, List<String>> previousCommands = new ConcurrentHashMap<>();
