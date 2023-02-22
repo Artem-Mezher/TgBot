@@ -1,0 +1,1 @@
+insert into INCOME(ID, CHAT_ID, INCOME) values (12345, 2, 3000)
